@@ -1,0 +1,302 @@
+[
+  {
+    "id": "A01",
+    "nome": "Costruzioni Colle Guasco",
+    "tipo": "impresa",
+    "comune": "ancona",
+    "indirizzo": "Via delle Querce 29, Ancona",
+    "telefono": "071 000 3464",
+    "lat": 43.60028,
+    "lng": 13.50007
+  },
+  {
+    "id": "A02",
+    "nome": "Rivendita Edile Baraccola",
+    "tipo": "rivendita",
+    "comune": "ancona",
+    "indirizzo": "Via delle Fornaci 44, Ancona",
+    "telefono": "071 000 9115",
+    "lat": 43.58256,
+    "lng": 13.48902
+  },
+  {
+    "id": "A03",
+    "nome": "Bagni & Superfici Passetto",
+    "tipo": "showroom",
+    "comune": "ancona",
+    "indirizzo": "Via dei Carpentieri 75, Ancona",
+    "telefono": "071 000 5657",
+    "lat": 43.59967,
+    "lng": 13.51538
+  },
+  {
+    "id": "A04",
+    "nome": "Posa Pavimenti Brecce Bianche",
+    "tipo": "artigiano",
+    "comune": "ancona",
+    "indirizzo": "Via delle Querce 74, Ancona",
+    "telefono": "071 000 3955",
+    "lat": 43.5996,
+    "lng": 13.52474
+  },
+  {
+    "id": "A05",
+    "nome": "Restauri Edili Capodimonte",
+    "tipo": "impresa",
+    "comune": "ancona",
+    "indirizzo": "Via dei Mestieri 22, Ancona",
+    "telefono": "071 000 2505",
+    "lat": 43.60301,
+    "lng": 13.50145
+  },
+  {
+    "id": "A06",
+    "nome": "Magazzino Edile Palombare",
+    "tipo": "rivendita",
+    "comune": "ancona",
+    "indirizzo": "Via dei Tigli 22, Ancona",
+    "telefono": "071 000 4718",
+    "lat": 43.60896,
+    "lng": 13.50441
+  },
+  {
+    "id": "A07",
+    "nome": "Impresa Edile Cesano",
+    "tipo": "impresa",
+    "comune": "senigallia",
+    "indirizzo": "Via del Commercio 30, Senigallia",
+    "telefono": "071 000 5246",
+    "lat": 43.71597,
+    "lng": 13.21493
+  },
+  {
+    "id": "A08",
+    "nome": "Materiali Edili Borgo Bicchia",
+    "tipo": "rivendita",
+    "comune": "senigallia",
+    "indirizzo": "Via del Molino 55, Senigallia",
+    "telefono": "071 000 8931",
+    "lat": 43.71812,
+    "lng": 13.20497
+  },
+  {
+    "id": "A09",
+    "nome": "Casa Rotonda Arredobagno",
+    "tipo": "showroom",
+    "comune": "senigallia",
+    "indirizzo": "Via della Fornace Vecchia 82, Senigallia",
+    "telefono": "071 000 7531",
+    "lat": 43.71333,
+    "lng": 13.21957
+  },
+  {
+    "id": "A10",
+    "nome": "Idraulica Ciarnin",
+    "tipo": "artigiano",
+    "comune": "senigallia",
+    "indirizzo": "Via dei Tigli 87, Senigallia",
+    "telefono": "071 000 5903",
+    "lat": 43.71186,
+    "lng": 13.22229
+  },
+  {
+    "id": "A11",
+    "nome": "Costruzioni Marzocca",
+    "tipo": "impresa",
+    "comune": "senigallia",
+    "indirizzo": "Via dell'Industria 16, Senigallia",
+    "telefono": "071 000 5892",
+    "lat": 43.72455,
+    "lng": 13.18235
+  },
+  {
+    "id": "A12",
+    "nome": "Edil Foglia Costruzioni",
+    "tipo": "impresa",
+    "comune": "pesaro",
+    "indirizzo": "Via della Fornace Vecchia 81, Pesaro",
+    "telefono": "0721 000 4128",
+    "lat": 43.90145,
+    "lng": 12.90689
+  },
+  {
+    "id": "A13",
+    "nome": "Ardizio Edilizia",
+    "tipo": "rivendita",
+    "comune": "pesaro",
+    "indirizzo": "Via del Molino 50, Pesaro",
+    "telefono": "0721 000 2964",
+    "lat": 43.9035,
+    "lng": 12.90602
+  },
+  {
+    "id": "A14",
+    "nome": "Superfici San Bartolo",
+    "tipo": "showroom",
+    "comune": "pesaro",
+    "indirizzo": "Via dei Mestieri 55, Pesaro",
+    "telefono": "0721 000 6739",
+    "lat": 43.90514,
+    "lng": 12.90538
+  },
+  {
+    "id": "A15",
+    "nome": "Falegnameria Villa Fastiggi",
+    "tipo": "artigiano",
+    "comune": "pesaro",
+    "indirizzo": "Via dei Tigli 15, Pesaro",
+    "telefono": "0721 000 7581",
+    "lat": 43.90681,
+    "lng": 12.90868
+  },
+  {
+    "id": "A16",
+    "nome": "Termoidraulica Baia Flaminia",
+    "tipo": "artigiano",
+    "comune": "pesaro",
+    "indirizzo": "Via delle Cave 27, Pesaro",
+    "telefono": "0721 000 6236",
+    "lat": 43.88865,
+    "lng": 12.88752
+  },
+  {
+    "id": "A17",
+    "nome": "Costruzioni Poderino",
+    "tipo": "impresa",
+    "comune": "fano",
+    "indirizzo": "Via dei Tigli 12, Fano",
+    "telefono": "0721 000 0896",
+    "lat": 43.83769,
+    "lng": 13.00919
+  },
+  {
+    "id": "A18",
+    "nome": "Rivendita Edile Arzilla",
+    "tipo": "rivendita",
+    "comune": "fano",
+    "indirizzo": "Via delle Cave 84, Fano",
+    "telefono": "0721 000 2533",
+    "lat": 43.83209,
+    "lng": 12.98644
+  },
+  {
+    "id": "A19",
+    "nome": "Ceramiche Porta Maggiore",
+    "tipo": "showroom",
+    "comune": "fano",
+    "indirizzo": "Via del Commercio 27, Fano",
+    "telefono": "0721 000 7870",
+    "lat": 43.81865,
+    "lng": 13.03741
+  },
+  {
+    "id": "A20",
+    "nome": "Serramenti Sassonia",
+    "tipo": "artigiano",
+    "comune": "fano",
+    "indirizzo": "Via delle Querce 4, Fano",
+    "telefono": "0721 000 9276",
+    "lat": 43.83704,
+    "lng": 13.02723
+  },
+  {
+    "id": "A21",
+    "nome": "Impresa Edile Minonna",
+    "tipo": "impresa",
+    "comune": "jesi",
+    "indirizzo": "Via delle Fornaci 48, Jesi",
+    "telefono": "0731 000 9549",
+    "lat": 43.51847,
+    "lng": 13.23865
+  },
+  {
+    "id": "A22",
+    "nome": "Vallesina Materiali",
+    "tipo": "rivendita",
+    "comune": "jesi",
+    "indirizzo": "Via dell'Industria 36, Jesi",
+    "telefono": "0731 000 3566",
+    "lat": 43.52136,
+    "lng": 13.27202
+  },
+  {
+    "id": "A23",
+    "nome": "Bagno & Pietra Esino",
+    "tipo": "showroom",
+    "comune": "jesi",
+    "indirizzo": "Via dei Muratori 39, Jesi",
+    "telefono": "0731 000 1355",
+    "lat": 43.52494,
+    "lng": 13.26438
+  },
+  {
+    "id": "A24",
+    "nome": "Pavimenti Ponte Pio",
+    "tipo": "artigiano",
+    "comune": "jesi",
+    "indirizzo": "Via dell'Industria 42, Jesi",
+    "telefono": "0731 000 5225",
+    "lat": 43.51983,
+    "lng": 13.247
+  },
+  {
+    "id": "A25",
+    "nome": "Costruzioni Campocavallo",
+    "tipo": "impresa",
+    "comune": "osimo",
+    "indirizzo": "Via dei Tigli 55, Osimo",
+    "telefono": "071 000 6429",
+    "lat": 43.47913,
+    "lng": 13.49306
+  },
+  {
+    "id": "A26",
+    "nome": "Deposito Edile Aspio",
+    "tipo": "rivendita",
+    "comune": "osimo",
+    "indirizzo": "Via del Lavoro 33, Osimo",
+    "telefono": "071 000 8487",
+    "lat": 43.48545,
+    "lng": 13.48114
+  },
+  {
+    "id": "A27",
+    "nome": "Serramenti San Biagio",
+    "tipo": "artigiano",
+    "comune": "osimo",
+    "indirizzo": "Via dell'Industria 18, Osimo",
+    "telefono": "071 000 3413",
+    "lat": 43.49639,
+    "lng": 13.47065
+  },
+  {
+    "id": "A28",
+    "nome": "Impresa Edile Giano",
+    "tipo": "impresa",
+    "comune": "fabriano",
+    "indirizzo": "Via delle Fornaci 82, Fabriano",
+    "telefono": "0732 000 7927",
+    "lat": 43.33103,
+    "lng": 12.90279
+  },
+  {
+    "id": "A29",
+    "nome": "Appennino Materiali",
+    "tipo": "rivendita",
+    "comune": "fabriano",
+    "indirizzo": "Via dei Carpentieri 73, Fabriano",
+    "telefono": "0732 000 9114",
+    "lat": 43.3157,
+    "lng": 12.89376
+  },
+  {
+    "id": "A30",
+    "nome": "Posa Pietra Valleremita",
+    "tipo": "artigiano",
+    "comune": "fabriano",
+    "indirizzo": "Via delle Ginestre 7, Fabriano",
+    "telefono": "0732 000 5587",
+    "lat": 43.33538,
+    "lng": 12.90727
+  }
+]

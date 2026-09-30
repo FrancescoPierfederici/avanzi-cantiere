@@ -1,0 +1,58 @@
+[
+  {
+    "id": "senigallia",
+    "nome": "Senigallia",
+    "sigla": "SEN",
+    "lat": 43.7155,
+    "lng": 13.2175,
+    "raggioKm": 2.5
+  },
+  {
+    "id": "jesi",
+    "nome": "Jesi",
+    "sigla": "JES",
+    "lat": 43.5225,
+    "lng": 13.2437,
+    "raggioKm": 2.5
+  },
+  {
+    "id": "ancona",
+    "nome": "Ancona",
+    "sigla": "ANC",
+    "lat": 43.6072,
+    "lng": 13.5046,
+    "raggioKm": 3
+  },
+  {
+    "id": "fano",
+    "nome": "Fano",
+    "sigla": "FAN",
+    "lat": 43.8395,
+    "lng": 13.0135,
+    "raggioKm": 2.5
+  },
+  {
+    "id": "osimo",
+    "nome": "Osimo",
+    "sigla": "OSI",
+    "lat": 43.4856,
+    "lng": 13.4817,
+    "raggioKm": 2
+  },
+  {
+    "id": "pesaro",
+    "nome": "Pesaro",
+    "sigla": "PES",
+    "lat": 43.9058,
+    "lng": 12.9071,
+    "raggioKm": 3
+  },
+  {
+    "id": "fabriano",
+    "nome": "Fabriano",
+    "sigla": "FAB",
+    "lat": 43.3363,
+    "lng": 12.9043,
+    "raggioKm": 2
+  }
+]

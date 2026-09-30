@@ -1,0 +1,7 @@
+Font ospitati in locale, sottoinsieme latin (da Google Fonts), tutti con licenza SIL Open Font License 1.1:
+https://openfontlicense.org
+Il testo completo della licenza è in OFL.txt, in questa cartella.
+
+- Archivo (archivo-latin.woff2): Copyright The Archivo Project Authors (https://github.com/Omnibus-Type/Archivo)
+- Inter (inter-latin.woff2): Copyright The Inter Project Authors (https://github.com/rsms/inter)
+- JetBrains Mono (jetbrains-mono-latin.woff2): Copyright The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)

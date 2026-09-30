@@ -1,0 +1,119 @@
+@import 'tailwindcss';
+
+/* ── Font in locale (public/fonts, licenza OFL): solo latin e solo i pesi usati ── */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600 900;
+  font-stretch: 100% 125%;
+  font-display: swap;
+  src: url('/fonts/archivo-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/inter-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/jetbrains-mono-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ── Token "Cantiere pulito" ─────────────────────────────────────────────── */
+@theme {
+  /* base */
+  --color-cemento: #edebe6; /* sfondo */
+  --color-asfalto: #1c1c1a; /* testo, globo, superfici scure */
+  --color-giallo: #ffc21a; /* azione, lotti — solo come fondo */
+  --color-verde: #2f9e5b; /* SOLO kg salvati dalla discarica */
+
+  /* derivati */
+  --color-carta: #fbfaf7; /* etichette, campi */
+  --color-cemento-2: #e2dfd8; /* pannelli */
+  --color-cemento-3: #c9c5bc; /* filetti decorativi */
+  --color-asfalto-2: #5a5852; /* testo secondario, 6,4:1 su cemento */
+  --color-asfalto-3: #2e2e2b; /* hover su asfalto */
+  --color-giallo-2: #f2b200; /* hover su giallo */
+
+  --font-display: 'Archivo', system-ui, sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Mono', monospace;
+
+  --radius-etichetta: 3px;
+  --spacing-tap: 48px;
+}
+
+@utility font-wide {
+  font-stretch: 125%;
+  font-variation-settings: 'wdth' 125;
+}
+@utility font-semiwide {
+  font-stretch: 112.5%;
+  font-variation-settings: 'wdth' 112.5;
+}
+/* numeri da stencil: un taglio orizzontale a metà cifra, come i ponti della mascherina */
+@utility stencil {
+  display: inline-block;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0 41.5%, transparent 41.5% 49.5%, #000 49.5%);
+  mask-image: linear-gradient(to bottom, #000 0 41.5%, transparent 41.5% 49.5%, #000 49.5%);
+}
+@utility num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums slashed-zero;
+  font-feature-settings: 'zero' 0;
+}
+
+@layer base {
+  html {
+    background: var(--color-cemento);
+    color: var(--color-asfalto);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: var(--color-cemento);
+    min-height: 100dvh;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-giallo);
+    color: var(--color-asfalto);
+  }
+
+  /* focus alto contrasto: asfalto su chiaro, giallo su scuro */
+  :focus-visible {
+    outline: 3px solid var(--color-asfalto);
+    outline-offset: 3px;
+  }
+  .su-scuro :focus-visible {
+    outline-color: var(--color-giallo);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
