@@ -66,7 +66,7 @@ Il codice è stato scritto con Claude Code sotto la mia guida, con verifiche su 
 Colori da cantiere: cemento come sfondo, asfalto per il testo e il globo, giallo segnaletica per azioni e lotti.
 Il verde compare solo nei contatori dei kg salvati dalla discarica.
 Archivo largo per i titoli, Inter per il testo, JetBrains Mono per numeri, misure e codici lotto.
-Ogni lotto è un'"etichetta di bancale": codice, quantità grande e bordo tratteggiato.
+Ogni lotto è un'etichetta di bancale: codice, quantità grande e bordo tratteggiato.
 Pensato per il telefono e per l'uso sotto il sole: contrasto alto, pulsanti da almeno 48 px, tastiera e movimento ridotto rispettati.
 
 ## Crediti e licenze

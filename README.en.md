@@ -67,7 +67,7 @@ The code was written with Claude Code under my direction, checked on desktop and
 Building-site colours: concrete as the background, asphalt for text and the globe, road-sign yellow for actions and lots.
 Green appears only in the counters of kilograms saved from landfill.
 Wide Archivo for headings, Inter for body text, JetBrains Mono for numbers, measurements and lot codes.
-Each lot is a "pallet label": code, large quantity and a dashed border.
+Each lot is a pallet label: code, large quantity and a dashed border.
 Built for phones and for use in bright sunlight: high contrast, buttons at least 48 px, keyboard and reduced motion respected.
 
 ## Credits and licences
