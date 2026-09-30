@@ -20,9 +20,11 @@ The code was written with Claude Code under my direction, checked on desktop and
 
 ## Demo
 
-[![Avanzi demo: search on the globe, flight to Senigallia, lot page with 3D pallet, alert, publishing, pickup with QR and flight to Turin](docs/demo.gif)](docs/demo.mp4)
+[![Avanzi demo: search on the globe, flight to Senigallia, lot page with 3D pallet, alert, publishing, pickup with QR and flight to Turin](docs/demo.gif)](https://github.com/user-attachments/assets/fc6fdae2-1e94-4f67-bdc0-c1706a5f5e5c)
 
-*The GIF plays at 2.25× speed: the [full video (mp4, 81 s)](docs/demo.mp4) runs at normal speed. Recorded with `npm run demo`.*
+*The GIF plays at 2.25× speed: the [full video (mp4, 81 s)](https://github.com/user-attachments/assets/fc6fdae2-1e94-4f67-bdc0-c1706a5f5e5c) runs at normal speed. Recorded with `npm run demo`.*
+
+https://github.com/user-attachments/assets/fc6fdae2-1e94-4f67-bdc0-c1706a5f5e5c
 
 ## Demo walkthrough
 

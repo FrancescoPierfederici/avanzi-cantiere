@@ -19,15 +19,11 @@ Il codice è stato scritto con Claude Code sotto la mia guida, con verifiche su 
 
 ## Demo
 
-[![Demo di Avanzi: ricerca sul globo, volo su Senigallia, scheda con bancale 3D, avviso, pubblicazione, ritiro con QR e volo su Torino](docs/demo.gif)](docs/demo.mp4)
+[![Demo di Avanzi: ricerca sul globo, volo su Senigallia, scheda con bancale 3D, avviso, pubblicazione, ritiro con QR e volo su Torino](docs/demo.gif)](https://github.com/user-attachments/assets/fc6fdae2-1e94-4f67-bdc0-c1706a5f5e5c)
 
-*La GIF è accelerata 2,25×: il [video completo (mp4, 81 s)](docs/demo.mp4) va a velocità normale. Registrato con `npm run demo`.*
-
-
+*La GIF è accelerata 2,25×: il [video completo (mp4, 81 s)](https://github.com/user-attachments/assets/fc6fdae2-1e94-4f67-bdc0-c1706a5f5e5c) va a velocità normale. Registrato con `npm run demo`.*
 
 https://github.com/user-attachments/assets/fc6fdae2-1e94-4f67-bdc0-c1706a5f5e5c
-
-
 
 ## Percorso demo
 
