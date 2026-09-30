@@ -23,6 +23,12 @@ Il codice è stato scritto con Claude Code sotto la mia guida, con verifiche su 
 
 *La GIF è accelerata 2,25×: il [video completo (mp4, 81 s)](docs/demo.mp4) va a velocità normale. Registrato con `npm run demo`.*
 
+
+
+https://github.com/user-attachments/assets/fc6fdae2-1e94-4f67-bdc0-c1706a5f5e5c
+
+
+
 ## Percorso demo
 
 1. **Cerca a parole.** Sul globo scrivi "gres 60x60 grigio vicino a Senigallia" e premi Invio.
