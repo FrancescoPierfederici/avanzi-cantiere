@@ -14,7 +14,7 @@ import {
   arrotondaPrezzo, bozzaCompleta, CATEGORIE, creaLotto, kgPerUnita, listinoPerUnita, numeroLibero, opzioneDi, passoPubblica,
   prezzoSuggerito, preparaFoto, ricercaPer, voceDi, type Bozza,
 } from '../lib/pubblica'
-import { Link, navigate } from '../router'
+import { conBase, Link, navigate } from '../router'
 
 const PASSI = ['Foto', 'Materiale', 'Quantità', 'Prezzo', 'Riepilogo'] as const
 const CHIAVE_BOZZA = 'avanzi:bozza'
@@ -62,14 +62,14 @@ export function Pubblica() {
   const cambia = (c: Partial<Bozza>) => setBozza((b) => ({ ...b, ...c }))
 
   const vai = (n: number) => {
-    window.history.pushState({ passo: n }, '', `/pubblica?passo=${n}`)
+    window.history.pushState({ passo: n }, '', conBase(`/pubblica?passo=${n}`))
     setPasso(n)
   }
   const indietro = () => {
     // se il passo precedente è nella cronologia, ci si torna davvero (come il tasto Indietro)
     if ((window.history.state as { passo?: number } | null)?.passo === passo && passo > 1) window.history.back()
     else if (passo > 1) {
-      window.history.replaceState({ passo: passo - 1 }, '', `/pubblica?passo=${passo - 1}`)
+      window.history.replaceState({ passo: passo - 1 }, '', conBase(`/pubblica?passo=${passo - 1}`))
       setPasso(passo - 1)
     }
   }
@@ -228,7 +228,7 @@ function PassoFoto({ bozza, cambia }: PropsPasso) {
         </label>
         <div className="aspect-[4/3] overflow-hidden rounded-etichetta border-2 border-asfalto bg-cemento-2">
           {bozza.foto ? (
-            <img src={bozza.foto} alt="Anteprima della foto scelta" className="size-full object-cover" />
+            <img src={conBase(bozza.foto)} alt="Anteprima della foto scelta" className="size-full object-cover" />
           ) : (
             <p className="grid size-full place-items-center p-4 text-center text-[14px] text-asfalto-2">Qui vedrai l'anteprima</p>
           )}
@@ -259,7 +259,7 @@ function PassoFoto({ bozza, cambia }: PropsPasso) {
                   }}
                   className="sr-only"
                 />
-                <img src={`/lotti/720/${v.foto}.webp`} alt={v.alt} loading="lazy" className="size-full object-cover" />
+                <img src={conBase(`/lotti/720/${v.foto}.webp`)} alt={v.alt} loading="lazy" className="size-full object-cover" />
               </label>
             )
           })}
