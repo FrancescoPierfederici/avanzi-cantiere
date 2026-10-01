@@ -1,4 +1,5 @@
 import type { Lotto } from '../../data/types'
+import { conBase } from '../../router'
 
 type Props = {
   lotto: Lotto
@@ -26,8 +27,8 @@ export function FotoLotto({ lotto, decorativa = false, className = '', priorita 
   return (
     <div className={`size-full overflow-hidden ${className}`} style={v.flip ? { transform: 'scaleX(-1)' } : undefined}>
       <img
-        src={lotto.foto}
-        srcSet={piccola ? `${piccola} 720w, ${lotto.foto} 1200w` : undefined}
+        src={conBase(lotto.foto)}
+        srcSet={piccola ? `${conBase(piccola)} 720w, ${conBase(lotto.foto)} 1200w` : undefined}
         sizes={piccola ? sizes : undefined}
         alt={decorativa ? '' : lotto.fotoAlt}
         width={1200}
