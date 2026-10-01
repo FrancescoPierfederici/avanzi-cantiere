@@ -19,7 +19,7 @@ import { caricaLuoghi, luoghiCaricati } from '../lib/caricaLuoghi'
 import { interpreta, testoDa, type Query } from '../lib/parser'
 import { assicuraZona, riferimentoDi } from '../lib/zone'
 import type { ControlloreMappa } from '../map/controllore'
-import { navigate } from '../router'
+import { conBase, navigate } from '../router'
 import { calcolaGlobo, type Globo } from '../map/globo'
 
 const Mappa = lazy(() => import('../components/map/Mappa'))
@@ -207,7 +207,7 @@ export function Home() {
         setZona(r.query.comune)
       }
       try {
-        window.history.replaceState(null, '', `/?q=${encodeURIComponent(testoPulito)}`)
+        window.history.replaceState(null, '', conBase(`/?q=${encodeURIComponent(testoPulito)}`))
       } catch {
         /* history non disponibile */
       }
